@@ -7,18 +7,18 @@
 /******************************** Define structures **************************************/
 typedef struct Tax_Info 
 {
-	int gross_income;
-	int free_income;
-	int deductions;
-	int allowances;
-	int married;
+    int grossIncome;
+    int freeIncome;
+    int deductions;
+    int allowances;
+    int married;
 } Tax_Info;
 
 typedef struct Taxes
 {
-	int taxes_owed;
-	float percent_of_gross_income;
-	float percent_of_free_income;
+    int taxes_owed;
+    float percent_of_grossIncome;
+    float percent_of_freeIncome;
 } Taxes;
 /**************************** Function Declarations **************************************/
 int JSON_to_tax_info(Tax_Info*, char*);

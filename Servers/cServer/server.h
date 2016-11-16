@@ -1,4 +1,4 @@
-/**************************** Import Libraries **************************************/
+/**************************** Import Libraries *****************************************/
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
@@ -11,9 +11,9 @@
 #include <pthread.h>
 /**************************** Supported Endpoints **************************************/
 #include "tax_endpoint.h"
-/***************************** Import global variables ***********************************/
+/***************************** Import global variables *********************************/
 #include "globals.h"
-/**************************** Function Declarations **************************************/
+/**************************** Function Declarations ************************************/
 int extract_callback(char**, char*);
 int extract_endpoint_params(char*, char*, char*, char*);
 int decode_params(char*, char*);
